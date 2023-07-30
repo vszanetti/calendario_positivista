@@ -3,8 +3,9 @@ Esta é uma simples aplicação em Python que converte determinada data do calen
 ## Instalando a aplicação
 
 ### Windows
-1. Baixe o arquivo CalendarioPositivista.exe
-2. Abra o arquivo.
+1. Baixe o arquivo CalendarioPositivista.zip
+2. Descompacte-o.
+3. Abra o arquivo calendario.exe
 
 ### MacOS e distribuições Linux
 1. Baixe o arquivo `calendario_positivista_gui.py`
