@@ -10,7 +10,7 @@ Esta é uma simples aplicação em Python que converte determinada data do calen
 1. Baixe o arquivo `calendario_positivista_gui.py`
 2. Acesse a pasta em que está o arquivo através do terminal.
 3. Rode:
-   `python3 calendario_positivista_gui.py`
+   `python calendario_positivista_gui.py`
 
 ## Utilizando a aplicação
 
@@ -22,4 +22,4 @@ Esta é uma simples aplicação em Python que converte determinada data do calen
 * Python 3.6 ou superior.
 * Biblioteca PyQt5
 
-Para instalar a biblioteca PyQt5, abra o terminal e digite: `pip3 install pyqt5`
+Para instalar a biblioteca PyQt5, abra o terminal e digite: `pip install pyqt5`
