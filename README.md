@@ -5,7 +5,7 @@ Esta é uma simples aplicação em Python que converte determinada data do calen
 ### Windows
 1. Baixe o arquivo `calendario.bat` e o arquivo `calendario_positivista_gui.py`.
 2. Certifique-se que estão na mesma pasta.
-3. Execute `calendario.bat`
+3. Execute `calendario.bat`.
 
 ### MacOS e distribuições Linux
 1. Baixe o arquivo `calendario_positivista_gui.py`
