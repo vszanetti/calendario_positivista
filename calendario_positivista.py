@@ -7,15 +7,6 @@ meses_positivistas = [
 ]
 
 def para_calendario_positivista(data_gregoriana):
-    """Converte uma data do calendário gregoriano para o calendário positivista.
-
-    Args:
-        data_gregoriana (date): A data no calendário gregoriano.
-
-    Returns:
-        date: A data no calendário positivista.
-    """
-
     ano_positivista = data_gregoriana.year - 1791
     mes_positivista = (data_gregoriana.month - 1) % 13
     dia_positivista = data_gregoriana.day
@@ -23,15 +14,6 @@ def para_calendario_positivista(data_gregoriana):
     return date(ano_positivista, mes_positivista, dia_positivista)
 
 def para_calendario_gregoriano(data_positivista):
-    """Converte uma data do calendário positivista para o calendário gregoriano.
-
-    Args:
-        data_positivista (date): A data no calendário positivista.
-
-    Returns:
-        date: A data no calendário gregoriano.
-    """
-
     mes_gregoriano = data_positivista.month - 1
     ano_gregoriano = data_positivista.year + 1791
     dia_gregoriano = data_positivista.day
